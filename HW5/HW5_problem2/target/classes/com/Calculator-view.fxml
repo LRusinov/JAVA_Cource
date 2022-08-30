@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<fx:root maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="351.0" prefWidth="461.0" type="AnchorPane" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <GridPane layoutX="1.0" layoutY="27.0" prefHeight="327.0" prefWidth="461.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="290.0" minWidth="10.0" prefWidth="246.33333333333334" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="219.33331298828125" minWidth="10.0" prefWidth="174.33333333333334" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="178.3333129882813" minWidth="10.0" prefWidth="176.3333129882813" />
+            <ColumnConstraints />
+            <ColumnConstraints />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="63.666656494140625" minHeight="0.0" prefHeight="63.666656494140625" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="124.0" minHeight="10.0" prefHeight="41.33333333333334" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="145.0" minHeight="10.0" prefHeight="126.66666666666666" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <TextField fx:id="txtScreen" alignment="CENTER_RIGHT" editable="false" prefHeight="39.0" prefWidth="420.0" text="0" GridPane.columnSpan="3">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font></TextField>
+            <GridPane prefHeight="53.0" prefWidth="140.0" GridPane.rowIndex="2" GridPane.rowSpan="3">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Button fx:id="btnDoubleZero" mnemonicParsing="false" onAction="#btnDoubleZeroOnAction" prefHeight="113.0" prefWidth="112.0" style="-fx-font-weight: BOLD; -fx-font-size: 20;" text="00" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="3">
+                     <GridPane.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="btnZero" mnemonicParsing="false" onAction="#btnZeroOnAction" prefHeight="93.0" prefWidth="56.0" style="-fx-font-weight: BOLD; -fx-font-size: 20;" text="0" GridPane.rowIndex="3">
+                     <GridPane.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="btnSeven" mnemonicParsing="false" onAction="#btnSevenOnAction" prefHeight="163.0" prefWidth="56.0" style="-fx-font-weight: BOLD; -fx-font-size: 20;" text="7" GridPane.rowIndex="2">
+                     <GridPane.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="btnFour" mnemonicParsing="false" onAction="#btnFourOnAction" prefHeight="133.0" prefWidth="56.0" style="-fx-font-weight: BOLD; -fx-font-size: 20;" text="4" GridPane.rowIndex="1">
+                     <GridPane.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="btnOne" mnemonicParsing="false" onAction="#btnOneOnAction" prefHeight="118.0" prefWidth="56.0" style="-fx-font-weight: BOLD; -fx-font-size: 20;" text="1">
+                     <GridPane.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="btnTwo" mnemonicParsing="false" onAction="#btnTwoOnAction" prefHeight="104.0" prefWidth="56.0" style="-fx-font-weight: BOLD; -fx-font-size: 20;" text="2" GridPane.columnIndex="1">
+                     <GridPane.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="btnFive" mnemonicParsing="false" onAction="#btnFiveOnAction" prefHeight="116.0" prefWidth="56.0" style="-fx-font-weight: BOLD; -fx-font-size: 20;" text="5" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                     <GridPane.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="btnEight" mnemonicParsing="false" onAction="#btnEightOnAction" prefHeight="100.0" prefWidth="56.0" style="-fx-font-weight: BOLD; -fx-font-size: 20;" text="8" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                     <GridPane.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="btnThree" mnemonicParsing="false" onAction="#btnThreeOnAction" prefHeight="59.0" prefWidth="56.0" style="-fx-font-weight: BOLD; -fx-font-size: 20;" text="3" GridPane.columnIndex="2">
+                     <GridPane.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="btnSix" mnemonicParsing="false" onAction="#btnSixOnAction" prefHeight="97.0" prefWidth="56.0" style="-fx-font-weight: BOLD; -fx-font-size: 20;" text="6" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                     <GridPane.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="btnNine" mnemonicParsing="false" onAction="#btnNineOnAction" prefHeight="142.0" prefWidth="56.0" style="-fx-font-weight: BOLD; -fx-font-size: 20;" text="9" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                     <GridPane.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </GridPane.margin>
+                  </Button>
+               </children>
+               <GridPane.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </GridPane.margin>
+            </GridPane>
+            <GridPane prefHeight="53.0" prefWidth="140.0" GridPane.columnIndex="1" GridPane.rowIndex="2" GridPane.rowSpan="3">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints maxHeight="56.333343505859375" minHeight="10.0" prefHeight="49.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="61.0" minHeight="10.0" prefHeight="49.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="61.000010172526046" minHeight="10.0" prefHeight="49.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="51.00001525878906" minHeight="10.0" prefHeight="49.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <Button fx:id="btnEqual" mnemonicParsing="false" onAction="#btnEqualOnAction" prefHeight="93.0" prefWidth="56.0" style="-fx-font-weight: BOLD; -fx-font-size: 20;" text="=" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="3">
+                     <GridPane.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="btnPoint" mnemonicParsing="false" onAction="#btnPointOnAction" prefHeight="93.0" prefWidth="56.0" style="-fx-font-weight: BOLD; -fx-font-size: 20;" text="." GridPane.rowIndex="3">
+                     <GridPane.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="btnPlus" mnemonicParsing="false" onAction="#btnPlusOnAction" prefHeight="279.0" prefWidth="56.0" style="-fx-font-weight: BOLD; -fx-font-size: 20;" text="+" GridPane.rowSpan="3">
+                     <GridPane.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="btnMinus" mnemonicParsing="false" onAction="#btnMinus" prefHeight="93.0" prefWidth="56.0" style="-fx-font-weight: BOLD; -fx-font-size: 20;" text="-" GridPane.columnIndex="1">
+                     <GridPane.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="bntMultiply" mnemonicParsing="false" onAction="#bntMultiplyOnAction" prefHeight="93.0" prefWidth="56.0" style="-fx-font-weight: BOLD; -fx-font-size: 20;" text="*" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                     <GridPane.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="btnDivision" mnemonicParsing="false" onAction="#btnDivisionOnAction" prefHeight="93.0" prefWidth="56.0" style="-fx-font-weight: BOLD; -fx-font-size: 20;" text="/" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                     <GridPane.margin>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </GridPane.margin>
+                  </Button>
+               </children>
+               <GridPane.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </GridPane.margin>
+            </GridPane>
+            <GridPane prefHeight="7.0" prefWidth="125.0" GridPane.columnIndex="2" GridPane.rowIndex="2" GridPane.rowSpan="3">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Button fx:id="btnC" mnemonicParsing="false" onAction="#btnCOnAction" prefHeight="34.0" prefWidth="78.0" style="-fx-font-size: 18; -fx-font-weight: BOLD;" text="C">
+                     <GridPane.margin>
+                        <Insets left="20.0" right="20.0" top="20.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="btnCA" mnemonicParsing="false" onAction="#btnCAOnAction" prefHeight="34.0" prefWidth="78.0" style="-fx-font-size: 18; -fx-font-weight: BOLD;" text="C/A" GridPane.rowIndex="1">
+                     <GridPane.margin>
+                        <Insets bottom="20.0" left="20.0" right="20.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="btnOff" mnemonicParsing="false" onAction="#btnOffOnAction" prefHeight="39.0" prefWidth="102.0" style="-fx-font-weight: Bold; -fx-font-size: 18;" text="OFF" GridPane.rowIndex="2">
+                     <GridPane.margin>
+                        <Insets left="8.0" right="5.0" top="5.0" />
+                     </GridPane.margin>
+                  </Button>
+               </children>
+            </GridPane>
+            <GridPane prefWidth="265.0" GridPane.columnIndex="1" GridPane.columnSpan="4" GridPane.rowIndex="1">
+              <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Button fx:id="btnMMinus" mnemonicParsing="false" onAction="#btnMMinusOnAction" prefHeight="35.0" prefWidth="43.0" style="-fx-font-weight: BOLD; -fx-font-size: 14;" text="M-" GridPane.columnIndex="2">
+                     <GridPane.margin>
+                        <Insets left="15.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="btnMPlus" mnemonicParsing="false" onAction="#btnMPlusOnAction" prefHeight="35.0" prefWidth="43.0" style="-fx-font-weight: BOLD; -fx-font-size: 14;" text="M+" GridPane.columnIndex="1">
+                     <GridPane.margin>
+                        <Insets left="15.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="btnM" mnemonicParsing="false" onAction="#btnMOnAction" prefHeight="35.0" prefWidth="43.0" style="-fx-font-weight: BOLD; -fx-font-size: 14;" text="M" GridPane.columnIndex="3">
+                     <GridPane.margin>
+                        <Insets left="15.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="btnMC" mnemonicParsing="false" onAction="#btnMCOnAction" prefHeight="35.0" prefWidth="43.0" style="-fx-font-weight: BOLD; -fx-font-size: 14;" text="MC" GridPane.columnSpan="3">
+                     <GridPane.margin>
+                        <Insets left="15.0" />
+                     </GridPane.margin>
+                  </Button>
+               </children>
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+            </GridPane>
+         </children>
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+      </GridPane>
+   </children>
+</fx:root>

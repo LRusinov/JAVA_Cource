@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import gui.ClientCalculatorController?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<?import view.CalculatorController?>
+<AnchorPane prefHeight="355.0" prefWidth="461.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.ClientCalculatorController">
+   <children>
+      <CalculatorController fx:id="pnlUserComponent" />
+   </children>
+</AnchorPane>
